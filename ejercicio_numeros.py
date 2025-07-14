@@ -1,5 +1,5 @@
-import numbers
 
+import numbers
 
 def fib(numero):
     #Precondicion: El valor de entrada debe ser un numero entero
@@ -11,7 +11,6 @@ def fib(numero):
     #Se comprueba que el valor de entrada es un numero entero
     #si el valor no es un numero, entonces se le dice al usuario que el valor es incorrecto y que vuelva a probarlo.
     #en caso de que no, pues se ejecuta el algoritmo.
-
     if isinstance(numero, numbers.Number):
         print("es un numero")
 
@@ -28,7 +27,6 @@ def fib(numero):
     else:
          print("no es un numero")
          print("el programa ha finalizado por que no se ha introducido un valor valido")
-
 
 fib("numero")
 #Precondiciones
